@@ -4,19 +4,23 @@ package lesson35;
  * Created by Kuba on 04/03/2019.
  */
 public class Circle {
+    // write your code here
     private double radius;
 
-     public Circle(double radius){
+    public Circle(double radius) {
 
-     }
-    public double getRadius(){
         if(radius<0){
+            this.radius = 0;
+        } else {
+            this.radius = radius;
+        }
+    }
 
-            return radius=0;
-        }
-        else
-        {
-            return radius;
-        }
+    public double getRadius() {
+        return radius;
+    }
+
+    public double getArea() {
+        return radius * radius * Math.PI;
     }
 }
