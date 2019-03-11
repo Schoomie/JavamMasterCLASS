@@ -1,7 +1,7 @@
 package lesson88;
 
 import static lesson83.Main.scanner;
-
+/*
 public class Main {
     public static void main(String[] args) {
         boolean quit = false;
@@ -106,7 +106,7 @@ public class Main {
             return;
         }
 
-        System.out.println("Name: " + existingContactRecord.getName() + " phone number is " + existingContactRecord.getPhoneNumber());
+        System.out.println("Name: " + existingContactRecord.getSongName() + " phone number is " + existingContactRecord.getPhoneNumber());
     }
 
     private static void startPhone() {
@@ -125,3 +125,4 @@ public class Main {
         System.out.println("Choose your action: ");
     }
 }
+*/
